@@ -15,3 +15,5 @@ I would like you to automate the following using the feature file to represent y
 5. Checkout with any details
 6. Validate the total value
 7. Finish and ensure that the order has been completed.
+
+To run the test ensure you have selected a browser from the maven options and you run project from the runner class.

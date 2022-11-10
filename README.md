@@ -8,10 +8,10 @@ Task:
 Open the following URL in a browser: https://www.saucedemo.com/
 I would like you to automate the following using the feature file to represent your steps the initial step to open the webpage has already been created for you.
 
-Log in to Swag labs with the Standard User
-Add an item to the cart
-Navigate to your cart
-Validate that the correct item has been added to the cart
-Checkout with any details
-Validate the total value
-Finish and ensure that the order has been completed.
+1. Log in to Swag labs with the Standard User
+2. Add an item to the cart
+3. Navigate to your cart
+4. Validate that the correct item has been added to the cart
+5. Checkout with any details
+6. Validate the total value
+7. Finish and ensure that the order has been completed.

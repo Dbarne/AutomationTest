@@ -50,7 +50,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                1,
+                10,
                 0,
                 0,
                 0,
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 10) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -230,7 +230,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>TechnicalTest</td>
         <td>1</td>
-      <td>10 Nov 2022, 08:56</td>
+      <td>11 Jan 2023, 21:14</td>
     </tr>
   </tbody>
 </table>
@@ -349,18 +349,18 @@ $(document).ready(function() {
       <tr>
         <td class="tagname"><a href="report-feature_1996552162.html">Run a technical test</a></td>
 
-        <td      class="passed"    >1</td>
+        <td      class="passed"    >10</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">1</td>
+        <td class="total">10</td>
 
         <td  class="passed"    >1</td>
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="841825700">0.841</td>
+        <td class="duration" data-value="11545022000">11.545</td>
         <td class="passed">Passed</td>
       </tr>
   </tbody>
@@ -368,18 +368,18 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>1</td>
+      <td>10</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
+      <td>10</td>
 
       <td>1</td>
       <td>0</td>
       <td>1</td>
 
-      <td class="duration">0.841</td>
+      <td class="duration">11.545</td>
       <td>1</td>
     </tr>
     <tr>

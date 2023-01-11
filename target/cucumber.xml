@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="3.079">
-    <testcase classname="Run a technical test" name="Log in to SwagLabs, Add Item to basket, Checkout" time="2.992">
-        <system-out><![CDATA[Given I am have opened the SwagLabs login page..............................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.84">
+    <testcase classname="Run a technical test" name="Log in to SwagLabs, Add Item to basket, Checkout" time="14.668">
+        <system-out><![CDATA[Given I have opened the SwagLabs login page.................................passed
+And I login to SwagLab with valid credentials...............................passed
+And I validate the Product page.............................................passed
+And I select an "Sauce Labs Bike Light" from the Product page...............passed
+When I add "Sauce Labs Bike Light" the to the cart..........................passed
+And I Navigate to the shopping cart.........................................passed
+And I validate the "Sauce Labs Bike Light" in Shopping Cart.................passed
+And I enter checkout credentials............................................passed
+And I validate the "Sauce Labs Bike Light" checkout details.................passed
+Then I verify order has been completed......................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
